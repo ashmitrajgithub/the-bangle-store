@@ -252,6 +252,14 @@ export default function Navigation() {
                     <Search className="w-5 h-5 group-hover:text-primary transition-colors" />
                  )}
               </motion.button>
+              <Link 
+                href="/account" 
+                className="p-2.5 rounded-full hover:bg-muted transition-colors hidden sm:flex items-center justify-center text-foreground"
+                aria-label="Account"
+              >
+                 <User className="w-5 h-5" />
+              </Link>
+              
 
               {/* Wishlist */}
               <Link href="/account?tab=wishlist" className="relative p-2.5 hover:bg-muted rounded-full transition-colors hidden sm:flex group">

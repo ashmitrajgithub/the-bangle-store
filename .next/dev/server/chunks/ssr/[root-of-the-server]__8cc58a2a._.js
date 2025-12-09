@@ -74,10 +74,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$vercel$2f$
 ;
 ;
 const metadata = {
-    title: "The Bangle Store | Premium Handcrafted Lac Bangles from Sitamarhi",
+    title: "Banglerd | Premium Handcrafted Lac Bangles from Sitamarhi",
     description: "Discover exquisite handcrafted lac and bridal bangles celebrating Mithila heritage. Premium quality, global delivery. Shop traditional Indian bangles online.",
     keywords: "handcrafted bangles, lac bangles, bridal bangles, Sitamarhi bangles, Mithila art, traditional Indian jewelry, wedding bangles",
-    metadataBase: new URL("https://banglestore.com"),
+    metadataBase: new URL("https://banglerd.com"),
     openGraph: {
         title: "The Bangle Store | Premium Handcrafted Lac Bangles",
         description: "Discover exquisite handcrafted lac and bridal bangles celebrating Mithila heritage. Premium quality, global delivery.",
