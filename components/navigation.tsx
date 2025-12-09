@@ -2,13 +2,18 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { Menu, X, ShoppingBag, User } from "lucide-react"
+import { Menu, X, ShoppingBag, User, Heart } from "lucide-react"
 import { useCart } from "@/lib/cart-store"
+import { useWishlist } from "@/lib/wishlist-store"
+import SearchBar from "@/components/search-bar"
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
   const { items } = useCart()
+  const { getCount: getWishlistCount } = useWishlist()
+
   const itemCount = items.reduce((sum, item) => sum + item.quantity, 0)
+  const wishlistCount = getWishlistCount()
 
   const closeMenu = () => setIsOpen(false)
 
@@ -19,16 +24,19 @@ export default function Navigation() {
       aria-label="Main navigation"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
+        <div className="flex justify-between items-center h-20 gap-4">
           {/* Logo */}
           <Link href="/" className="flex-shrink-0" aria-label="The Bangle Store home">
-            <h1 className="text-2xl font-serif font-bold text-primary">The Bangle Store</h1>
+            <h1 className="text-2xl font-serif font-bold text-primary whitespace-nowrap">Banglerd</h1>
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-12">
+          <div className="hidden lg:flex items-center gap-12">
             <Link href="/shop" className="text-sm font-medium hover:text-primary transition-colors">
               Shop
+            </Link>
+            <Link href="/size-finder" className="text-sm font-medium hover:text-primary transition-colors">
+              Size Finder
             </Link>
             <Link href="/craftsmanship" className="text-sm font-medium hover:text-primary transition-colors">
               Craftsmanship
@@ -44,11 +52,33 @@ export default function Navigation() {
             </Link>
           </div>
 
-          {/* Cart, Account & Mobile Menu */}
-          <div className="flex items-center gap-4">
-            <Link href="/account" className="p-2 hover:bg-muted rounded-lg transition-colors" aria-label="Account">
+          <SearchBar />
+
+          <div className="flex items-center gap-2 sm:gap-4">
+            <Link
+              href="/account?tab=wishlist"
+              className="p-2 hover:bg-muted rounded-lg transition-colors relative hidden sm:flex"
+              aria-label={`Wishlist with ${wishlistCount} items`}
+            >
+              <Heart className="w-5 h-5" aria-hidden="true" />
+              {wishlistCount > 0 && (
+                <span
+                  className="absolute top-0 right-0 -mt-1 -mr-1 w-5 h-5 bg-red-500 text-white text-xs rounded-full flex items-center justify-center font-semibold"
+                  aria-label={`${wishlistCount} items in wishlist`}
+                >
+                  {wishlistCount}
+                </span>
+              )}
+            </Link>
+
+            <Link
+              href="/account"
+              className="p-2 hover:bg-muted rounded-lg transition-colors hidden sm:flex"
+              aria-label="Account"
+            >
               <User className="w-5 h-5" aria-hidden="true" />
             </Link>
+
             <Link
               href="/cart"
               className="p-2 hover:bg-muted rounded-lg transition-colors relative"
@@ -64,6 +94,7 @@ export default function Navigation() {
                 </span>
               )}
             </Link>
+
             <button
               className="md:hidden p-2 hover:bg-muted rounded-lg transition-colors"
               onClick={() => setIsOpen(!isOpen)}
@@ -86,6 +117,13 @@ export default function Navigation() {
                 onClick={closeMenu}
               >
                 Shop
+              </Link>
+              <Link
+                href="/size-finder"
+                className="text-sm font-medium hover:text-primary transition-colors"
+                onClick={closeMenu}
+              >
+                Size Finder
               </Link>
               <Link
                 href="/craftsmanship"
@@ -115,14 +153,24 @@ export default function Navigation() {
               >
                 Contact
               </Link>
-              {/* Account link for mobile */}
-              <Link
-                href="/account"
-                className="text-sm font-medium hover:text-primary transition-colors"
-                onClick={closeMenu}
-              >
-                Account
-              </Link>
+              <div className="border-t border-border pt-4 flex flex-col gap-4">
+                <Link
+                  href="/account?tab=wishlist"
+                  className="text-sm font-medium hover:text-primary transition-colors flex items-center gap-2"
+                  onClick={closeMenu}
+                >
+                  <Heart className="w-4 h-4" />
+                  Wishlist {wishlistCount > 0 && `(${wishlistCount})`}
+                </Link>
+                <Link
+                  href="/account"
+                  className="text-sm font-medium hover:text-primary transition-colors flex items-center gap-2"
+                  onClick={closeMenu}
+                >
+                  <User className="w-4 h-4" />
+                  Account
+                </Link>
+              </div>
             </div>
           </div>
         )}

@@ -1,7 +1,11 @@
 "use client"
 
+import type React from "react"
+
 import Link from "next/link"
-import { Star, ShoppingBag } from "lucide-react"
+import { Star, ShoppingBag, Heart } from "lucide-react"
+import { useWishlist } from "@/lib/wishlist-store"
+import { useState } from "react"
 
 interface Product {
   id: number
@@ -13,6 +17,24 @@ interface Product {
 }
 
 export default function ProductCard({ product }: { product: Product }) {
+  const { addItem, removeItem, isInWishlist } = useWishlist()
+  const [isFavorited, setIsFavorited] = useState(isInWishlist(product.id))
+
+  const handleWishlist = (e: React.MouseEvent) => {
+    e.preventDefault()
+    if (isFavorited) {
+      removeItem(product.id)
+    } else {
+      addItem({
+        id: product.id,
+        name: product.name,
+        price: product.price,
+        image: product.image,
+      })
+    }
+    setIsFavorited(!isFavorited)
+  }
+
   return (
     <Link href={`/shop/${product.id}`}>
       <div className="group cursor-pointer h-full flex flex-col">
@@ -24,15 +46,27 @@ export default function ProductCard({ product }: { product: Product }) {
             loading="lazy"
             decoding="async"
           />
-          <button
-            className="absolute top-4 right-4 p-2 bg-white rounded-full opacity-0 group-hover:opacity-100 transition-opacity shadow-lg"
-            aria-label={`Add ${product.name} to cart`}
-            onClick={(e) => {
-              e.preventDefault()
-            }}
-          >
-            <ShoppingBag className="w-5 h-5 text-primary" aria-hidden="true" />
-          </button>
+          <div className="absolute top-4 right-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
+            <button
+              className="p-2 bg-white rounded-full shadow-lg hover:scale-110 transition-transform"
+              aria-label={`${isFavorited ? "Remove from" : "Add to"} wishlist`}
+              onClick={handleWishlist}
+            >
+              <Heart
+                className={`w-5 h-5 ${isFavorited ? "fill-red-500 text-red-500" : "text-primary"}`}
+                aria-hidden="true"
+              />
+            </button>
+            <button
+              className="p-2 bg-white rounded-full shadow-lg opacity-0 group-hover:opacity-100 transition-opacity"
+              aria-label={`Add ${product.name} to cart`}
+              onClick={(e) => {
+                e.preventDefault()
+              }}
+            >
+              <ShoppingBag className="w-5 h-5 text-primary" aria-hidden="true" />
+            </button>
+          </div>
         </div>
         <h3 className="font-semibold text-lg group-hover:text-primary transition-colors line-clamp-2">
           {product.name}

@@ -1,0 +1,11 @@
+var R=require("../../../chunks/[turbopack]_runtime.js")("server/app/api/size-recommendation/route.js")
+R.c("server/chunks/node_modules_@vercel_oidc_dist_e411b193._.js")
+R.c("server/chunks/node_modules_next_dist_5034f144._.js")
+R.c("server/chunks/node_modules_@opentelemetry_api_build_esm_7e8f41ca._.js")
+R.c("server/chunks/node_modules_zod_bdc323d5._.js")
+R.c("server/chunks/node_modules_ai_dist_index_mjs_b0116780._.js")
+R.c("server/chunks/node_modules_3cf9dd36._.js")
+R.c("server/chunks/[root-of-the-server]__f8deb8ea._.js")
+R.c("server/chunks/_next-internal_server_app_api_size-recommendation_route_actions_e0e28b8b.js")
+R.m("[project]/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/app/api/size-recommendation/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)")
+module.exports=R.m("[project]/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/app/api/size-recommendation/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)").exports
