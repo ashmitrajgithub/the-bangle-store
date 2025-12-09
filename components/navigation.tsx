@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { Menu, X, ShoppingBag, User, Heart } from "lucide-react"
 import { useCart } from "@/lib/cart-store"
 import { useWishlist } from "@/lib/wishlist-store"
@@ -19,19 +20,30 @@ export default function Navigation() {
 
   return (
     <nav
-      className="sticky top-0 z-50 bg-background border-b border-border"
+      className="sticky top-0 z-50 bg-background/90 backdrop-blur border-b border-border"
       role="navigation"
       aria-label="Main navigation"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20 gap-4">
           {/* Logo */}
-          <Link href="/" className="flex-shrink-0" aria-label="The Bangle Store home">
-            <h1 className="text-2xl font-serif font-bold text-primary whitespace-nowrap">Banglerd</h1>
+          <Link
+            href="/"
+            className="flex-shrink-0 flex items-center"
+            aria-label="Banglerd home"
+          >
+            <Image
+              src="/banglerd-logo.png" // make sure this file exists in /public
+              alt="Banglerd logo"
+              width={400}
+              height={100}
+              priority
+              className="h-11 w-auto object-contain"
+            />
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center gap-12">
+          <div className="hidden lg:flex items-center gap-10">
             <Link href="/shop" className="text-sm font-medium hover:text-primary transition-colors">
               Shop
             </Link>
@@ -52,9 +64,14 @@ export default function Navigation() {
             </Link>
           </div>
 
-          <SearchBar />
+          {/* Search (hide on very small screens if needed) */}
+          <div className="hidden sm:flex flex-1 max-w-md mx-4">
+            <SearchBar />
+          </div>
 
+          {/* Icons */}
           <div className="flex items-center gap-2 sm:gap-4">
+            {/* Wishlist */}
             <Link
               href="/account?tab=wishlist"
               className="p-2 hover:bg-muted rounded-lg transition-colors relative hidden sm:flex"
@@ -71,6 +88,7 @@ export default function Navigation() {
               )}
             </Link>
 
+            {/* Account */}
             <Link
               href="/account"
               className="p-2 hover:bg-muted rounded-lg transition-colors hidden sm:flex"
@@ -79,12 +97,13 @@ export default function Navigation() {
               <User className="w-5 h-5" aria-hidden="true" />
             </Link>
 
+            {/* Cart */}
             <Link
               href="/cart"
               className="p-2 hover:bg-muted rounded-lg transition-colors relative"
               aria-label={`Shopping cart with ${itemCount} items`}
             >
-              <ShoppingBag className="w-5 h-5" aria-hidden="false" />
+              <ShoppingBag className="w-5 h-5" aria-hidden="true" />
               {itemCount > 0 && (
                 <span
                   className="absolute top-0 right-0 -mt-1 -mr-1 w-5 h-5 bg-primary text-primary-foreground text-xs rounded-full flex items-center justify-center font-semibold"
@@ -95,6 +114,7 @@ export default function Navigation() {
               )}
             </Link>
 
+            {/* Mobile menu button */}
             <button
               className="md:hidden p-2 hover:bg-muted rounded-lg transition-colors"
               onClick={() => setIsOpen(!isOpen)}
@@ -105,6 +125,11 @@ export default function Navigation() {
               {isOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
             </button>
           </div>
+        </div>
+
+        {/* Mobile Search */}
+        <div className="sm:hidden pb-3">
+          <SearchBar />
         </div>
 
         {/* Mobile Navigation */}

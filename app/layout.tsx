@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "/gold-bridal-bangles-set.jpg",
+        url: "/icoo.png",
         width: 1200,
         height: 630,
         alt: "The Bangle Store",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "The Bangle Store | Premium Handcrafted Lac Bangles",
     description: "Discover exquisite handcrafted lac and bridal bangles celebrating Mithila heritage.",
-    images: ["/gold-bridal-bangles-set.jpg"],
+    images: ["/icoo.png"],
   },
   robots: {
     index: true,
@@ -49,19 +49,19 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
+        url: "/icoo.png",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/icon-dark-32x32.png",
+        url: "/icoo.png",
         media: "(prefers-color-scheme: dark)",
       },
       {
-        url: "/icon.svg",
+        url: "/icoo.png",
         type: "image/svg+xml",
       },
     ],
-    apple: "/apple-icon.png",
+    apple: "/icoo.png",
   },
     generator: 'the-bangle-store'
 }
