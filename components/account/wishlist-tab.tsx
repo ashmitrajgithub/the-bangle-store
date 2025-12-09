@@ -1,5 +1,6 @@
 "use client"
 
+import { useState } from "react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Heart, ShoppingBag, Trash2, Share2 } from "lucide-react"
@@ -13,6 +14,7 @@ const wishlistItems = [
     discount: "29%",
     image: "/gold-bridal-bangles.jpg",
     inStock: true,
+    sizes: ["2.2", "2.4", "2.6", "2.8"],
   },
   {
     id: 2,
@@ -22,10 +24,20 @@ const wishlistItems = [
     discount: "32%",
     image: "/lac-bangles-with-stones.jpg",
     inStock: true,
+    sizes: ["2.2", "2.4", "2.6", "2.8"],
   },
 ]
 
 export default function WishlistTab() {
+  const [selectedSizes, setSelectedSizes] = useState<Record<number, string>>({})
+
+  const handleSizeSelect = (itemId: number, size: string) => {
+    setSelectedSizes((prev) => ({
+      ...prev,
+      [itemId]: size,
+    }))
+  }
+
   return (
     <div className="pb-6 sm:pb-8">
       <div className="mb-4 sm:mb-6 flex justify-between items-start sm:items-center gap-2">
@@ -77,8 +89,33 @@ export default function WishlistTab() {
                     </div>
                     <p className="text-xs text-muted-foreground">{item.inStock ? "In Stock" : "Out of Stock"}</p>
                   </div>
+
+                  <div className="mb-3 sm:mb-4">
+                    <label className="text-xs sm:text-sm font-medium text-foreground mb-2 block">
+                      Select Size (inches)
+                    </label>
+                    <div className="grid grid-cols-4 gap-1.5 sm:gap-2">
+                      {item.sizes.map((size) => (
+                        <button
+                          key={size}
+                          onClick={() => handleSizeSelect(item.id, size)}
+                          className={`py-1.5 sm:py-2 px-1 sm:px-2 rounded text-xs sm:text-sm font-medium transition-colors border ${
+                            selectedSizes[item.id] === size
+                              ? "bg-primary text-primary-foreground border-primary"
+                              : "bg-muted text-foreground border-border hover:border-primary"
+                          }`}
+                        >
+                          {size}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+
                   <div className="flex flex-col sm:flex-row gap-2">
-                    <Button className="flex-1 text-xs sm:text-sm h-9 sm:h-10" disabled={!item.inStock}>
+                    <Button
+                      className="flex-1 text-xs sm:text-sm h-9 sm:h-10"
+                      disabled={!item.inStock || !selectedSizes[item.id]}
+                    >
                       <ShoppingBag className="w-4 h-4 mr-1 sm:mr-2" />
                       <span className="hidden sm:inline">Add to Cart</span>
                       <span className="sm:hidden">Add</span>

@@ -11,6 +11,7 @@ interface OrderItem {
   name: string
   price: string
   quantity: number
+  size: string
   image: string
 }
 
@@ -37,6 +38,7 @@ const orders: Order[] = [
         name: "Traditional Red Lac Bangles",
         price: "₹1,299",
         quantity: 1,
+        size: "2.6",
         image: "💍",
       },
       {
@@ -44,6 +46,7 @@ const orders: Order[] = [
         name: "Gold Bridal Set",
         price: "₹1,200",
         quantity: 1,
+        size: "2.4",
         image: "✨",
       },
     ],
@@ -62,6 +65,7 @@ const orders: Order[] = [
         name: "Festive Collection Bangles",
         price: "₹1,899",
         quantity: 1,
+        size: "2.8",
         image: "🎨",
       },
     ],
@@ -79,6 +83,7 @@ const orders: Order[] = [
         name: "Premium Glass Bangles",
         price: "₹1,499",
         quantity: 2,
+        size: "2.2",
         image: "💎",
       },
     ],
@@ -174,6 +179,7 @@ export default function OrdersTab() {
                   <div className="flex-1 min-w-0">
                     <p className="font-medium text-foreground text-sm sm:text-base truncate">{item.name}</p>
                     <p className="text-xs sm:text-sm text-muted-foreground">Qty: {item.quantity}</p>
+                    <p className="text-xs sm:text-sm text-muted-foreground font-medium">Size: {item.size} inches</p>
                   </div>
                   <div className="text-right flex-shrink-0">
                     <p className="font-semibold text-foreground text-sm sm:text-base">{item.price}</p>

@@ -1,5 +1,6 @@
 "use client"
 
+import { use } from "react"
 import { useState } from "react"
 import Navigation from "@/components/navigation"
 import Footer from "@/components/footer"
@@ -29,14 +30,17 @@ const products: Record<string, any> = {
       "Perfect for bridal wear and special occasions",
     ],
     colors: ["Gold", "Red", "Maroon"],
+    sizes: ["2.2", "2.4", "2.6", "2.8", "2.10"],
     images: ["/gold-bridal-bangles.jpg", "/bridal-bangles-detail.jpg", "/bangle-craftsmanship.jpg"],
   },
 }
 
-export default function ProductPage({ params }: { params: { id: string } }) {
-  const product = products[params.id] || products["1"]
+export default function ProductPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = use(params)
+  const product = products[id] || products["1"]
   const [quantity, setQuantity] = useState(1)
   const [selectedColor, setSelectedColor] = useState(product.colors[0])
+  const [selectedSize, setSelectedSize] = useState("")
   const [selectedImage, setSelectedImage] = useState(0)
   const [isWishlisted, setIsWishlisted] = useState(false)
   const { addItem } = useCart()
@@ -45,17 +49,27 @@ export default function ProductPage({ params }: { params: { id: string } }) {
   const discount = ((product.originalPrice - product.price) / product.originalPrice) * 100
 
   const handleAddToCart = () => {
+    if (!selectedSize) {
+      toast({
+        title: "Size Required",
+        description: "Please select a size before adding to cart.",
+        variant: "destructive",
+      })
+      return
+    }
+
     addItem({
       id: product.id,
       name: product.name,
       price: product.price,
       quantity,
       color: selectedColor,
+      size: selectedSize,
       image: product.image,
     })
     toast({
       title: "Added to cart",
-      description: `${product.name} has been added to your cart.`,
+      description: `${product.name} (${selectedSize}") has been added to your cart.`,
     })
   }
 
@@ -126,7 +140,7 @@ export default function ProductPage({ params }: { params: { id: string } }) {
                   {/* Color Selection */}
                   <div>
                     <h3 className="font-semibold mb-3">Color</h3>
-                    <div className="flex gap-3">
+                    <div className="flex gap-3 flex-wrap">
                       {product.colors.map((color: string) => (
                         <button
                           key={color}
@@ -141,6 +155,26 @@ export default function ProductPage({ params }: { params: { id: string } }) {
                         </button>
                       ))}
                     </div>
+                  </div>
+
+                  <div>
+                    <h3 className="font-semibold mb-3">Size (inches)</h3>
+                    <div className="grid grid-cols-4 gap-2">
+                      {product.sizes.map((size: string) => (
+                        <button
+                          key={size}
+                          onClick={() => setSelectedSize(size)}
+                          className={`px-3 py-2 rounded-lg border-2 transition-colors font-medium ${
+                            selectedSize === size
+                              ? "border-primary bg-primary/5 text-primary"
+                              : "border-border hover:border-primary"
+                          }`}
+                        >
+                          {size}
+                        </button>
+                      ))}
+                    </div>
+                    {!selectedSize && <p className="text-sm text-orange-600 mt-2">Size is required to proceed</p>}
                   </div>
 
                   {/* Quantity */}

@@ -111,6 +111,7 @@
     --color-red-700: #bf000f;
     --color-red-800: #9f0712;
     --color-red-900: #82181a;
+    --color-orange-600: #f05100;
     --color-amber-100: #fef3c6;
     --color-amber-200: #fee685;
     --color-amber-300: #ffd236;
@@ -226,6 +227,7 @@
       --color-red-700: lab(40.4273% 67.2623 53.7441);
       --color-red-800: lab(33.7174% 55.8993 41.0293);
       --color-red-900: lab(28.5139% 44.5539 29.0463);
+      --color-orange-600: lab(57.1026% 64.2584 89.8886);
       --color-amber-100: lab(95.916% -1.21653 23.111);
       --color-amber-200: lab(91.7203% -.505269 49.9084);
       --color-amber-300: lab(86.4156% 6.13147 78.3961);
@@ -2666,6 +2668,10 @@
     padding-block: calc(var(--spacing) * 12);
   }
 
+  .py-14 {
+    padding-block: calc(var(--spacing) * 14);
+  }
+
   .py-16 {
     padding-block: calc(var(--spacing) * 16);
   }
@@ -2974,6 +2980,10 @@
 
   .text-muted-foreground {
     color: var(--muted-foreground);
+  }
+
+  .text-orange-600 {
+    color: var(--color-orange-600);
   }
 
   .text-popover-foreground {
@@ -5508,6 +5518,12 @@
   }
 
   @media (min-width: 40rem) {
+    .sm\:gap-2 {
+      gap: calc(var(--spacing) * 2);
+    }
+  }
+
+  @media (min-width: 40rem) {
     .sm\:gap-2\.5 {
       gap: calc(var(--spacing) * 2.5);
     }
@@ -5568,6 +5584,12 @@
   }
 
   @media (min-width: 40rem) {
+    .sm\:px-2 {
+      padding-inline: calc(var(--spacing) * 2);
+    }
+  }
+
+  @media (min-width: 40rem) {
     .sm\:px-4 {
       padding-inline: calc(var(--spacing) * 4);
     }
@@ -5576,6 +5598,12 @@
   @media (min-width: 40rem) {
     .sm\:px-6 {
       padding-inline: calc(var(--spacing) * 6);
+    }
+  }
+
+  @media (min-width: 40rem) {
+    .sm\:py-2 {
+      padding-block: calc(var(--spacing) * 2);
     }
   }
 
@@ -5762,6 +5790,24 @@
   @media (min-width: 48rem) {
     .md\:p-12 {
       padding: calc(var(--spacing) * 12);
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:py-10 {
+      padding-block: calc(var(--spacing) * 10);
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:py-14 {
+      padding-block: calc(var(--spacing) * 14);
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:py-18 {
+      padding-block: calc(var(--spacing) * 18);
     }
   }
 
