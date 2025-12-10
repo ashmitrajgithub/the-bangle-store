@@ -1,49 +1,3442 @@
-[00:00:01.650] Server  LOG      ✓ Ready in 1410ms
-[00:00:14.529] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:14.529] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:14.529] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765314021799}
-[00:00:14.529] Browser WARN    Image with src "http://localhost:3000/icoo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:46.100] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/account?tab=wishlist color: rgb(120, 120, 120) color: inherit {"dp":"/account","o":"http://localhost:3000/account?tab=wishlist","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765314053398}
-[00:00:49.784] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765314057082}
-[00:00:53.832] Server  LOG      ✓ Compiled in 298ms
-[00:03:04.996] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./components/navigation.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:03:06.258] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:03:06.258] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:03:06.258] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765314192893}
-[00:03:21.025] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/shop/gold-bangle-set color: rgb(120, 120, 120) color: inherit {"dp":"/shop/[id]","o":"http://localhost:3000/shop/gold-bangle-set","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765314208324}
-[00:03:25.463] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./components/navigation.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:03:25.490] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./components/navigation.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:03:25.619] Server  LOG      ✓ Compiled in 0ms
-[00:03:25.995] Browser WARN    Image with src "http://localhost:3000/icoo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:25.995] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:03:25.995] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/shop/gold-bangle-set","route":"/shop/[id]"}
-[00:03:25.995] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/shop/gold-bangle-set color: rgb(120, 120, 120) color: inherit {"dp":"/shop/[id]","o":"http://localhost:3000/shop/gold-bangle-set","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765314213295}
-[00:05:58.864] Server  LOG      ✓ Compiled in 321ms
-[00:06:01.952] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765314369255}
-[00:06:13.416] Browser WARN    Image with src "http://localhost:3000/icoo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:06:13.416] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:06:13.416] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:06:13.416] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765314380720}
-[00:07:59.665] Server  LOG      ✓ Compiled in 186ms
-[00:08:18.967] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/shop?q=bangles color: rgb(120, 120, 120) color: inherit {"dp":"/shop","o":"http://localhost:3000/shop?q=bangles","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765314506248}
-[00:08:27.912] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765314515212}
-[00:11:20.261] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/account?tab=wishlist color: rgb(120, 120, 120) color: inherit {"dp":"/account","o":"http://localhost:3000/account?tab=wishlist","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765314687559}
-[00:11:21.756] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765314689056}
-[00:12:27.950] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/cart color: rgb(120, 120, 120) color: inherit {"dp":"/cart","o":"http://localhost:3000/cart","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765314755248}
-[00:12:29.858] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765314757156}
-[00:12:32.545] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765314759844}
-[00:12:39.002] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765314766299}
-[00:14:42.967] Server  LOG      ✓ Compiled in 197ms
-[00:16:06.217] Server  LOG      ✓ Compiled in 112ms
-[00:16:15.785] Server  LOG      ✓ Compiled in 90ms
-[00:16:33.016] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/account color: rgb(120, 120, 120) color: inherit {"dp":"/account","o":"http://localhost:3000/account","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765315000309}
-[00:16:36.774] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765315004070}
-[00:16:43.913] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/account color: rgb(120, 120, 120) color: inherit {"dp":"/account","o":"http://localhost:3000/account","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765315011206}
-[00:16:48.361] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:16:48.361] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/signup","route":"/signup"}
-[00:16:48.361] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765315015657}
-[00:16:50.536] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:16:50.536] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/account","route":"/account"}
-[00:16:50.536] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/account color: rgb(120, 120, 120) color: inherit {"dp":"/account","o":"http://localhost:3000/account","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765315017827}
-[00:16:50.536] Browser WARN    Image with src "http://localhost:3000/icoo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:17:06.710] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765315034004}
+[00:00:00.671] Server  LOG      ✓ Ready in 421ms
+[00:00:03.602] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:04.492] Browser ERROR   uncaughtError: Error: ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:05.466] Browser ERROR   ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:05.466] Browser ERROR   ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:44.464] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:44.618] Browser ERROR   uncaughtError: Error: ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:44.801] Browser ERROR   ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:44.801] Browser ERROR   ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:52.179] Server  LOG      ✓ Compiled in 218ms
+[00:01:53.244] Browser WARN    Image with src "http://localhost:3000/icoo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:53.244] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:53.244] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:01:53.244] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765360071003}
+[00:02:05.408] Browser WARN    Image with src "http://localhost:3000/icoo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:05.408] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:05.408] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:02:05.408] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765360083167}
+[00:02:07.922] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:07.922] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:02:07.922] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765360085664}
+[00:02:07.922] Browser WARN    Image with src "http://localhost:3000/icoo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:04:06.199] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:06.212] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:06.215] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:06.217] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:06.227] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:06.231] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:06.242] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:06.256] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:06.261] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:06.264] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:06.266] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:06.270] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:06.275] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:06.277] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:06.281] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:06.292] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:06.295] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:06.298] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:06.299] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:06.301] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:06.304] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:06.307] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:06.308] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:06.309] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:06.312] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:06.314] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:06.318] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:06.321] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:06.323] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:06.324] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:06.325] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:06.326] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:06.329] Server  LOG      ✓ Compiled in 443ms
+[00:04:06.465] Browser ERROR   ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:22.281] Server  LOG      ✓ Compiled in 222ms
+[00:04:32.547] Browser WARN    Image with src "http://localhost:3000/icoo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:04:32.547] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:04:32.547] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:04:32.547] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765360230302}
+[00:04:35.553] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:04:35.553] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:04:35.553] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765360233282}
+[00:04:35.553] Browser WARN    Image with src "http://localhost:3000/icoo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:04:37.949] Browser WARN    Image with src "http://localhost:3000/icoo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:04:37.949] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:04:37.949] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:04:37.949] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765360235704}
+[00:05:51.369] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.370] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.372] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.377] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.384] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.385] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.386] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.387] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.388] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.390] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.391] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.392] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.394] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.395] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.396] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.397] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.399] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.399] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.400] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.401] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.403] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.404] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.405] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.409] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.412] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.416] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.419] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.420] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.425] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.427] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.431] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.432] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.436] Server  LOG      ✓ Compiled in 232ms
+[00:05:52.467] Browser ERROR   ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:58.480] Server  LOG      ✓ Compiled in 170ms
+[00:06:01.942] Browser WARN    Image with src "http://localhost:3000/icoo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:01.942] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:06:01.942] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:06:01.942] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765360319696}
+[00:06:06.283] Browser WARN    Image with src "http://localhost:3000/icoo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:06.283] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:06:06.283] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:06:06.283] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765360324036}
+[00:06:21.976] Browser WARN    Image with src "http://localhost:3000/icoo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:22.399] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:06:22.399] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:06:22.399] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765360340153}
+[00:06:32.178] Browser WARN    Image with src "http://localhost:3000/icoo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:32.178] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:06:32.178] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:06:32.178] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765360349931}
+[00:08:04.277] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:04.280] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:04.282] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:04.283] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:04.296] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:04.299] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:04.300] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:04.301] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:04.304] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:04.305] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:04.306] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:04.308] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:04.309] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:04.310] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:04.312] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:04.313] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:04.314] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:04.315] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:04.316] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:04.317] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:04.327] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:04.328] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:04.329] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:04.330] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:04.331] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:04.332] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:04.333] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:04.334] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:04.335] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:04.336] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:04.338] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:04.340] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:04.342] Server  LOG      ✓ Compiled in 216ms
+[00:08:04.467] Browser ERROR   ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:08:14.236] Server  LOG      ✓ Compiled in 169ms
+[00:08:20.531] Browser WARN    Image with src "http://localhost:3000/icoo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:08:20.531] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:08:20.531] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:08:20.531] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765360458281}
+[00:08:40.459] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:08:40.459] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:08:40.459] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765360478185}
+[00:08:40.459] Browser WARN    Image with src "http://localhost:3000/icoo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:52.997] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.000] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.012] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.013] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.016] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.018] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.019] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.020] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.022] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.024] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.027] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.033] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.035] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.036] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.037] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.039] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.041] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.043] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.045] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.046] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.049] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.052] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.055] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.057] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.060] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.061] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.062] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.063] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.065] Server  LOG      ✓ Compiled in 251ms
+[00:09:53.465] Browser ERROR   ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:01.960] Server  LOG      ✓ Compiled in 184ms
+[00:10:04.404] Browser WARN    Image with src "http://localhost:3000/icoo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:10:04.405] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:10:04.405] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:10:04.405] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765360562154}
+[00:10:09.015] Browser WARN    Image with src "http://localhost:3000/icoo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:10:09.015] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:10:09.015] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:10:09.015] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765360566764}
+[00:10:11.753] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:10:11.753] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:10:11.753] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765360569469}
+[00:10:11.753] Browser WARN    Image with src "http://localhost:3000/icoo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:11:43.754] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:43.764] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:43.766] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:43.767] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:43.771] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:43.774] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:43.779] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:43.780] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:43.783] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:43.787] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:43.788] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:43.790] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:43.793] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:43.795] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:43.796] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:43.797] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:43.799] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:43.801] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:43.802] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:43.803] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:43.804] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:43.805] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:43.807] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:43.808] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:43.810] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:43.812] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:43.813] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:43.814] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:43.816] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:43.817] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:43.819] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:43.819] Server  ERROR    ⨯ ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:43.821] Server  LOG      ✓ Compiled in 345ms
+[00:11:44.465] Browser ERROR   ./components/hero.tsx:3:1
+Module not found: Can't resolve 'motion/react'
+  1 | "use client"
+  2 |
+> 3 | import { motion } from "motion/react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { ArrowRight } from "lucide-react"
+  5 | import Link from "next/link"
+  6 |
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:11:54.426] Browser WARN    Image with src "http://localhost:3000/icoo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:11:54.426] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:11:54.426] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:11:54.426] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765360672174}
+[00:12:16.187] Browser WARN    Image with src "http://localhost:3000/icoo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:16.303] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:12:16.303] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:12:16.303] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765360694050}
+[00:12:24.623] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:12:24.623] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:12:24.623] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765360702309}
+[00:12:24.623] Browser WARN    Image with src "http://localhost:3000/icoo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:58.912] Server  LOG      ✓ Compiled in 104ms
+[00:13:03.029] Server  LOG      ✓ Compiled in 99ms
+[00:13:05.911] Server  LOG      ✓ Compiled in 79ms
+[00:13:11.415] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:13:11.415] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:13:11.415] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765360749145}
+[00:13:11.415] Browser WARN    Image with src "http://localhost:3000/icoo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:13:24.354] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:13:24.354] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:13:24.354] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765360762095}
+[00:13:24.354] Browser WARN    Image with src "http://localhost:3000/icoo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:13:29.051] Browser WARN    Image with src "http://localhost:3000/icoo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:13:29.051] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:13:29.051] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:13:29.051] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765360766796}
